@@ -1,6 +1,6 @@
 # ESRS November 2025 — Datapoint Register
 
-> A structured Excel register of every disclosure requirement, paragraph, and Application Requirement across all 12 ESRS standards — built from the EFRAG Knowledge Hub.
+> A structured Excel register of every disclosure requirement, paragraph, and Application Requirement across all 12 ESRS standards — based on the EFRAG 2025 Draft Simplified ESRS (November 2025), a publicly available document.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Standards](https://img.shields.io/badge/standards-ESRS%201%2C%202%2C%20E1--E5%2C%20S1--S4%2C%20G1-lightgrey)
@@ -12,13 +12,13 @@
 
 EFRAG's IG3 Excel covers the original 2023 ESRS. No updated structured list exists for the **2025 Draft Simplified ESRS (Nov 2025)**. Practitioners preparing ESRS sustainability statements need a machine-readable, filterable register of all disclosure requirements — including what changed, what is new, and which Application Requirements apply to each paragraph.
 
-This register fills that gap. It is built directly from the live [EFRAG Knowledge Hub](https://knowledgehub.efrag.org) and compiled into a clean Excel file you can filter, annotate, and integrate into your reporting workflow.
+This register fills that gap. It is based on the publicly available EFRAG 2025 Draft Simplified ESRS (November 2025) and compiled into a clean Excel file you can filter, annotate, and integrate into your reporting workflow.
 
 ---
 
 ## Download
 
-**[→ Download the latest release](../../releases/latest)**
+**[→ Download the latest release](https://github.com/Kaufmann-Sustainability/esrs-list-of-datapoints-releases/releases/latest)**
 
 No installation required — just open the `.xlsx` file in Excel or any compatible spreadsheet tool.
 
@@ -65,7 +65,7 @@ No installation required — just open the `.xlsx` file in Excel or any compatib
 | Parent para | `41` | Para number extracted from the AR ref |
 | Text | *exact wording* | Rich text — bold defined terms (ESRS Glossary) are preserved |
 | Amendment | `New` / `Amended` / `Unchanged` | Change status relative to the 2023 ESRS |
-| Indicative amendment assessment | `Amended` / `Renumbered` | `Amended` = EFRAG explicitly flagged a content change · `Renumbered` = only a para cross-reference given, no explicit content-change flag. Indicative only — verify against the official text. |
+| Indicative amendment assessment | `Amended` / `Renumbered` | `Amended` = explicitly flagged as a content change · `Renumbered` = only a para cross-reference given, no explicit content-change flag. Indicative only — verify against the official text. |
 | Previous para ref | `45` / `AR 10` | Original para/AR replaced by this row (Amended rows only) |
 | Defined terms | `materiality, impact` | Glossary terms identified in the source text |
 | Source | `2025 Draft Simplified ESRS (Nov 2025)` | |
@@ -78,15 +78,14 @@ No installation required — just open the `.xlsx` file in Excel or any compatib
 
 | Issue | Detail |
 |-------|--------|
-| Formula images | Where EFRAG uses an image for a formula, `[IMAGE]` is appended to the row. Affects E1 AR 22, E5 AR 3, S1 AR 35. |
-| EFRAG HTML inconsistencies | Some sub-chapters are structured incorrectly in the HTML (e.g. E5-5 Products/Waste). These are detected and handled but may differ from the PDF layout. |
-| Live source dependency | Built from the live Knowledge Hub. If EFRAG updates the HTML, counts or content may shift. |
+| Formula images | Where a formula is rendered as an image, `[IMAGE]` is appended to the row. Affects E1 AR 22, E5 AR 3, S1 AR 35. |
+| Structural notes | Some sub-chapters are structured inconsistently in the source (e.g. E5-5 Products/Waste). These are detected and handled but may differ from the PDF layout. |
 
 ---
 
 ## Disclaimer
 
-This register has been compiled by **Kaufmann Sustainability GmbH** solely for informational and working-document purposes. It is derived from the EFRAG Knowledge Hub HTML as published under the 2025 Draft Simplified ESRS (Nov 2025) and has been processed by an automated parser. While reasonable care has been taken to ensure accuracy and completeness, Kaufmann Sustainability GmbH does not warrant that this register is free from errors, omissions, or misinterpretations of the source material.
+This register has been compiled by **Kaufmann Sustainability GmbH** solely for informational and working-document purposes. It is derived from the EFRAG 2025 Draft Simplified ESRS (November 2025), a publicly available document. While reasonable care has been taken to ensure accuracy and completeness, Kaufmann Sustainability GmbH does not warrant that this register is free from errors, omissions, or misinterpretations of the source material.
 
 This register does not constitute legal, regulatory, or professional advice. It is the sole responsibility of the user to verify all disclosure requirements against the official ESRS texts as adopted or endorsed by the European Commission. Kaufmann Sustainability GmbH expressly excludes any liability for losses, penalties, regulatory findings, or other consequences arising from reliance on this register.
 
